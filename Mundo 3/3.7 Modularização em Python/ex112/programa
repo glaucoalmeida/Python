@@ -1,0 +1,5 @@
+from ex112 import dado
+from ex112 import moeda
+
+n = dado.leiaDinheiro('Digite o valor: R$ ')
+moeda.resumo(n,20,10)

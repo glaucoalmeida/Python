@@ -1,0 +1,13 @@
+def leiaint(msg):
+    while True:
+        n = str(input(msg))
+        if n.isnumeric():
+            n = int(n)
+            break
+        else:
+            print ('Valor inválido.')
+    return n
+
+
+n = leiaint('Digite um número: ')
+print (f'O número digitado foi {n}.')
