@@ -1,8 +1,0 @@
-n = int(input('Digite um número: '))
-f = 1
-while n >= 1:
-    print(n,end=' ')
-    print('x ' if n > 1 else '= ',end='')
-    f = f * n
-    n -= 1
-print (f)
