@@ -1,7 +1,6 @@
 import urllib
 from urllib import request
 
-
 try:
     site = urllib.request.urlopen('http://pudim.com.br')
 except:
