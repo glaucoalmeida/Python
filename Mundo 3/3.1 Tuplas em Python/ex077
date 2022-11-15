@@ -1,7 +1,0 @@
-nomes = ('Alemanha','Argentina','Brasil','Espanha','Inglaterra',
-         'Holanda','Itália','França','Uruguai','Portugal')
-for n in nomes:
-    print (f'\nEm {n}, tem-se:',end=' ')
-    for l in n:
-        if l.lower() in 'aeiou':
-            print (l,end=' ')

@@ -1,5 +1,0 @@
-from ex113 import dados
-
-n1 = dados.leiaint('Digite um número inteiro: ')
-n2 = dados.leiafloat('Digite um número real: ')
-print (f'O número inteiro e real digitados foram {n1} e {n2}, respectivamente.')

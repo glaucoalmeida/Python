@@ -1,8 +1,0 @@
-def área (l,c):
-    a = l*c
-    print (f'O terreno com dimensões {l} m x {c} m tem uma área de {a:.2f} m².')
-
-
-l = float(input('Qual a largura (m)? '))
-c = float(input('Qual o comprimento (m)? '))
-área (l,c)
