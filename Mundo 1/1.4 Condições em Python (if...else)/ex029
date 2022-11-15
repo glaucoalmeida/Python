@@ -1,0 +1,6 @@
+v = float(input('Digite a velocidade do carro em Km/h: '))
+if v > 80:
+    print(f'\033[31mVocê foi multado. O valor a pagar é de R${7*(v-80):.2f}.')
+    print('\033[33mDirija com atenção, tenha um bom dia.')
+else:
+    print('\033[33mDirija com atenção, tenha um bom dia.')

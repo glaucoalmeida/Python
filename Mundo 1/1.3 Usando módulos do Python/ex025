@@ -1,0 +1,3 @@
+c = str(input('Digite o seu nome completo: ')).strip().upper()
+a = 'SILVA' in c
+print (f'Seu nome tem Silva? {a}.')

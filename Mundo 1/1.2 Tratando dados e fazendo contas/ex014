@@ -1,0 +1,2 @@
+t = float(input('Qual a temperatura em C°? '))
+print(f'A temperatura será de {1.8*t+32:.1f}°F.')

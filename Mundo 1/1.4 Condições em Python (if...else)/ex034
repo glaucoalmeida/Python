@@ -1,0 +1,5 @@
+s = float(input('Digite o salário do funcionário:R$ '))
+if s > 1250:
+    print (f'O novo salário do funcionário será R${s*(1+0.10):.2f}.')
+else:
+    print(f'O novo salário do funcionário será R${s*(1+0.15):.2f}.')

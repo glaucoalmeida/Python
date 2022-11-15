@@ -1,0 +1,4 @@
+from math import hypot
+co = float(input('Digite a medida do cateto oposto: '))
+ca = float(input('Digite a medida do cateto adjacente: '))
+print(f'A hipotenusa será {hypot(co,ca):.2f}.')
