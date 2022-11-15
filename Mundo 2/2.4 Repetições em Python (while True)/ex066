@@ -1,0 +1,13 @@
+a = s = n = 0
+print ('-='*40)
+n = int(input('Digite um número (999 para parar): '))
+while True:
+    if n != 999:
+     a += 1
+     s += n
+     n = int(input('Digite um número (999 para parar): '))
+    else:
+        break
+print ('-='*40)
+print (f'Foram digitados {a} números e a soma entre eles é {s}.')
+print ('-='*40)

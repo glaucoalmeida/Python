@@ -1,0 +1,10 @@
+f = str(input('Digite uma frase: ')).strip().upper()
+a = f.split()
+b = ''.join(a)
+i = ''
+for c in range (len(b)-1,-1,-1):
+    i += b[c]
+if i == b:
+    print ('É palíndromo.')
+else:
+    print ('Não é palíndromo.')
